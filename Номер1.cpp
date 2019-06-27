@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include <iostream>
 #include <cstdlib>
 #include <string>
@@ -6,11 +6,11 @@ using namespace std;
 
 int main()
 {
- string s, a = "a", e = "e", y = "y", u = "u", i = "i", o = "o";
+ string s;
  int t = 0, c = 0, h = 0, k = 0, m = 0, z = 0;
  getline(cin,s);
  s.length();
- for (int p = 0; p < s.length(); b++)
+ for (int b = 0; b < s.length(); b++)
 	{
  if (s[b] == 'a')
  t++;
